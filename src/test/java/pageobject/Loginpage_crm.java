@@ -38,15 +38,16 @@ import net.thucydides.core.annotations.Managed;
 		
 		
 		
-	public void setUsername(String uname)
+	public void setUsername(String uname) throws InterruptedException
 	{
 		
+		Thread.sleep(10000);
 		txtUsername.sendKeys(uname);
 	}
 
-	public void setPassword(String pwd)
+	public void setPassword(String pwd) throws InterruptedException
 	{
-		
+		Thread.sleep(10000);
 		txtPassword.sendKeys(pwd);
 	}
 

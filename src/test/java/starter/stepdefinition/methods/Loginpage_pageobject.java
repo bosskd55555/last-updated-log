@@ -13,7 +13,7 @@ public class Loginpage_pageobject extends BaseClass   {
 	
 	@Step("launching chrome and URL")
 	
-	public void dashboard_login()
+	public void dashboard_login() throws InterruptedException
 	{
 		 System.setProperty("webdriver.chrome.driver","F://sel//Selenium//drivers//chromedriver.exe");
 			driver=new ChromeDriver();

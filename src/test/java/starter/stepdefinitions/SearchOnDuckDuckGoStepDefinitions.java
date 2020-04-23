@@ -27,7 +27,7 @@ Deals_page_object test2;
 
 
   @Given("^user is already on login page$")
- public void user_is_already_on_login_page() {
+ public void user_is_already_on_login_page() throws InterruptedException {
 	 
 	 /*System.setProperty("webdriver.chrome.driver","F://sel//Selenium//drivers//chromedriver.exe");
 		driver=new ChromeDriver();
